@@ -39,12 +39,13 @@ body {
   width: 340px;
   height: 150px;
   padding-top: 130px;
-  padding-left: 20px;
-  font-size: 40px;
+  padding-left: 15px;
+  font-size: 41px;
+  margin-bottom: 12px;
   font-family: 'Poppins', sans-serif;
-  line-height: 52px;
+  line-height: 55px;
   display: flex;
-  align-items: center;
+  align-items: left;
   letter-spacing: 0.36px;
   font-weight: 700;
   flex: none;
@@ -55,7 +56,7 @@ body {
 .paragraph1 {
   width: 327px;
   height: 146px;
-  padding-left: 18px;
+  padding-left: 14px;
   margin: 8px 8px 8px 8px;
   color: #344563;
   font-size: 16px;
@@ -90,9 +91,10 @@ body {
   color: #7f8cff;
   padding-left: 20px;
   padding-top: 10px;
+  margin-top: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 3px;
   align-items: flex-start;
@@ -140,6 +142,10 @@ body {
   padding: 16px 16px 16px 16px;
 }
 
+section {
+  display: grid;
+}
+
 h1 {
   font-family: 'Poppines', sans-serif;
   font-style: normal;
@@ -163,8 +169,13 @@ ul {
   margin: 10px 8px;
 }
 
-h3 {
-  color: #344563;
+.contact h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #7f8cff;
   margin-right: 7px;
 }
 
@@ -193,9 +204,9 @@ p {
   color: #6070ff;
 }
 
-h5 {
+.lang li {
   background-color: #ebebff;
-  padding: 4px 12px;
+  padding: 13px 12px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -257,7 +268,29 @@ button:hover {
   font-weight: 500;
 }
 
-h6 {
+.photo li h1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 36px 10px 20px 1px;
+  margin: 2px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #000;
+}
+
+.photo1 li h1 {
+  font-family: 'Poppins', sans-serif;
+  padding: 36px 10px 20px 1px;
+  margin: 2px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #000;
+}
+
+.photo2 li h1 {
   font-family: 'Poppins', sans-serif;
   padding: 36px 10px 20px 1px;
   margin: 2px;
