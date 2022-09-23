@@ -6,8 +6,7 @@ This project is The Mobile Portofolio Website.In this project I added the linter
 ## Built With
 
 - Major languages used html and css
-- Frameworks used visual studio code
-- Technologies used Laptop
+- Technologies used visual studio code
    
    
    
