@@ -343,7 +343,7 @@
   }
   
   .container {
-  width: 375px;
+    width: 375px;
     height: 1263px;
     display: grid;
     row-gap: 50px;
