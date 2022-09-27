@@ -232,9 +232,7 @@ button:hover {
 }
 
 .about {
-  position: absolute;
   width: 375px;
-  height: 1263px;
   color: #7f8cff;
   padding-left: 20px;
 }
@@ -340,48 +338,6 @@ h5 {
 
 .photo2 li {
   gap: 70%;
-}
-
-.contact-area {
-  margin-top: 950px;
-  padding: 16px 16px 16px 0;
-}
-.contact-me {
-  height: 506px;
-  width: 375px;
-  border-radius: 8px;
-  background-image: url("image/contact.png");
-  background-color: #396df2;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: contain;
-  color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 103px;
-  padding-bottom: 45px;
-  border-radius: 60px 0 0 0;
-  text-align: center;
-
-}
-
-
-.contact-me h1 {
-  font-weight: 700;
-  
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-}
-
-.contact-me p {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 28px;
-  color: #fff;
 }
 
 .container {
