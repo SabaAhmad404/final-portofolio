@@ -347,6 +347,7 @@ h5 {
   row-gap: 50px;
   grid-template-rows: repeat(6, 1fr);
 }
+
 .contact-me {
   display: flex;
   align-items: center;
@@ -436,14 +437,13 @@ input[type=submit] {
   padding: 16px 20px 16px 0;
 }
 
-.contact-desc{
-  color: #FFF;
+.contact-desc {
+  color: #fff;
   height: auto;
 }
 
-.contact-title{
-  color: #FFF;
-  
+.contact-title {
+  color: #fff;
 }
 
 .see-demo-btn {
