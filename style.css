@@ -344,7 +344,7 @@ h5 {
 
 .container {
   width: 375px;
-  height: 1263px;
+  height: 1463px;
   display: grid;
   row-gap: 50px;
   grid-template-rows: repeat(6, 1fr);
