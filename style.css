@@ -372,10 +372,14 @@ h5 {
   line-height: 52px;
 }
 
-.flex-contact p {
-  font-weight: 400;
+.contact-desc p {
+  font-family: 'Poppins'sans-serif;
+  font-style: normal;
+  font-weight: 200px;
   font-size: 20px;
   line-height: 28px;
+  text-align: center;
+  color: #ebebff;
 }
 
 input[type=text] {
@@ -434,7 +438,7 @@ input[type=submit] {
 
 .contact-area {
   background-color: #fff;
-  padding: 16px 20px 16px 0;
+  padding: 16px 16px 16px 0;
 }
 
 .contact-desc {
