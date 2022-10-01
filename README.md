@@ -1,6 +1,6 @@
 
-# Finish Mobile Portofolio
-This project is The Mobile Portofolio Website.In this project I added the linter , html and css file.The main purpose of this project is to setting up your Protofolio Website.
+# Desktop version
+This project is The desktop Portofolio Website.In this project I added the linter , html and css file.The main purpose of this project is to setting up your Protofolio Website.
 
 
 ## Built With
@@ -17,7 +17,7 @@ This project is The Mobile Portofolio Website.In this project I added the linter
 
 ## Getting Started
 
-To get a local copy up and run git clone git@github.com:SabaAhmad786/final-portofolio.git and follow these simple steps.
+To get a local copy up and run git clone git@github.com:SabaAhmad786/final-portofolio and follow these simple steps.
 
 ### Open files in visual studio code
 
