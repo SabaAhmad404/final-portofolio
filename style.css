@@ -170,9 +170,14 @@ body {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
-  display: flex;
+  display: inline-block;
   text-align: center;
   color: blue;
+  transition: color 0.5s ease;
+}
+
+.logo:hover {
+  color: crimson;
 }
 
 .menu-btn {
@@ -625,6 +630,17 @@ label {
     font-size: 18px;
     line-height: 20px;
     color: blue;
+    display: block;
+  }
+
+  .logo:hover {
+    animation: rotate 1s linear;
+  }
+
+  @keyframes rotate {
+    0%  { transform: rotate(0deg) }
+    50%  { transform: rotate(180deg) }
+    100%  { transform: rotate(360deg) }
   }
 
   .menu-btn {
