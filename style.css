@@ -175,7 +175,8 @@ body {
   color: blue;
   transition: color 0.5s ease;
 }
-.logo:hover{
+
+.logo:hover {
   color: crimson;
 }
 
