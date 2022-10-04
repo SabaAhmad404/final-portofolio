@@ -114,7 +114,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
-  border: 1px solid #6070ff;
+  border: 1px solid blue;
   border-radius: 8px;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
@@ -173,6 +173,11 @@ body {
   display: flex;
   text-align: center;
   color: blue;
+  transition: 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
 }
 
 .menu-btn {
@@ -581,6 +586,16 @@ label {
 
 .errorMessengerHidden {
   display: none;
+}
+
+.menu-link {
+  display: block;
+  transition: 0.2s;
+}
+
+.menu-link:hover {
+  transform: scale(1.2);
+  color: pink;
 }
 
 @media screen and (min-width: 768px) {
