@@ -1,6 +1,6 @@
 
 # Desktop version
-This project is The desktop Portofolio Website.In this project I added the linter , html and css file.The main purpose of this project is to setting up your Protofolio Website.
+This project is The desktop Portofolio Website.In this project I added the linter , html and css file.The main purpose of this project is to setting up your Protofolio Website.My project is [liver here] (https://sabaahmad786.github.io/final-portofolio/)
 
 
 ## Built With
@@ -45,9 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank you microverse for making this happen
 
 ## 📝 License
 
