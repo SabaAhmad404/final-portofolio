@@ -173,6 +173,11 @@ body {
   display: flex;
   text-align: center;
   color: blue;
+  transition: 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
 }
 
 .menu-btn {
@@ -581,6 +586,16 @@ label {
 
 .errorMessengerHidden {
   display: none;
+}
+
+.menu-link {
+  display: block;
+  transition: 0.2s;
+}
+
+.menu-link:hover {
+  transform: scale(1.2);
+  color: pink;
 }
 
 @media screen and (min-width: 768px) {
