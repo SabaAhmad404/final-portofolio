@@ -26,7 +26,7 @@ body {
 
 .mobile-menu-list {
   position: fixed;
-  padding: 1.75rem; padding: 1.75rem;
+  padding: 1.75rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,13 +36,13 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: white;
-  background-color: rgba(96,112,255,0.7);
+  background-color: rgba(96, 112 , 255 , 0.7);
   height: 100vh;
   width: 100vw;
   z-index: 999;
 }
 
-.pop-up-close-btn{
+.pop-up-close-btn {
   display: flex;
   align-self: flex-end;
   height: 30px;
@@ -630,7 +630,7 @@ label {
   color: pink;
 }
 
-.disappear{
+.disappear {
   display: none;
 }
 
@@ -639,7 +639,7 @@ label {
     text-decoration: none;
   }
 
-  .mobile-menu-list{
+  .mobile-menu-list {
     display: none;
   }
 
