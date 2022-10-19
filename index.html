@@ -20,7 +20,7 @@
           <a href="#" class="logo">Saba Ahmad</a>
         </div>
         <div class="menu-btn">
-          <img src="./images/Union.png" alt="menu" width="18" height="12" />
+          <img id="btn" src="./images/Union.png" alt="menu" width="18" height="12" />
         </div>
         <div class="menu-list">
           <ul>
@@ -29,8 +29,18 @@
             <li><a class="menu-link" href="#contact-form">Contact</a></li>
           </ul>
         </div>
-      </nav>
-    </header>
+      </nav> 
+    </header> 
+    <div class="mobile-menu-list">
+      <div class="closeImg">
+      <img class="pop-up-close-btn" src="./images/cross.png"  alt="cross">
+      </div>
+      <ul>
+        <li class="MM-list"><a class="mobile-menu-link for-clik-1" href="#portofolio">Portfolio</a></li>
+        <li class="MM-list"><a class="mobile-menu-link for-clik-2" href="#about-section">About</a></li>
+        <li class="MM-list"><a class="mobile-menu-link for-clik-3" href="#contact-form">Contact</a></li>
+      </ul>
+    </div>
     <main id="header-body">
       <section class="introduction">
         <h1>
@@ -65,7 +75,7 @@
             alt="A snapshot of my Tonic project."
             class="project-card-image"
           />
-          <div class="work-area">
+          <div class="work-area" id="portofolio">
             <div class="work-head">
               <h3>Tonic</h3>
               <ul class="frame">
@@ -351,5 +361,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

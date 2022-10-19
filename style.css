@@ -24,8 +24,9 @@ body {
   background-color: #e5e5e5;
 }
 
-.mobile-menu-list-ul {
-  margin-top: 3.125rem;
+.mobile-menu-list {
+  position: fixed;
+  padding: 1.75rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -35,21 +36,42 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: white;
+  background-color: rgba(96, 112, 255, 0.7);
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
 }
 
-.mobile-menu-list {
-  position: fixed;
-  background-color: #6070ff;
-  mix-blend-mode: multiply;
-  opacity: 0.8;
-  width: 100vw;
-  height: 100vh;
-  z-index: 100;
+.pop-up-close-btn {
+  display: flex;
+  align-self: flex-end;
+  height: 30px;
+  width: 30px;
+}
+
+.closeImg {
+  text-align: right;
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-left: 80%;
+}
+
+.mobile-menu-list-ul {
+  margin-top: 3.125rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 1.75rem;
   font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+}
+
+.MM-list {
+  gap: 60%;
+  padding-left: 40px;
 }
 
 .exit {
@@ -63,6 +85,10 @@ body {
   width: 1rem;
   height: 1rem;
   align-self: center;
+}
+
+.blur {
+  filter: blur(5px);
 }
 
 .dark-bg-screen {
@@ -161,6 +187,17 @@ body {
   padding: 10px 12px;
   width: 100px;
   height: 40px;
+  animation: rotateLogo 1.5s linear;
+}
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .logo {
@@ -598,9 +635,17 @@ label {
   color: pink;
 }
 
+.disappear {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   a {
     text-decoration: none;
+  }
+
+  .mobile-menu-list {
+    display: none;
   }
 
   #header-container {
