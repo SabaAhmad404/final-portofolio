@@ -51,9 +51,9 @@ body {
 
 .closeImg {
   text-align: right;
-  padding-top: 20px;
+  padding-top: 18px;
   padding-right: 20px;
-  padding-left: 65%;
+  padding-left: 80%;
 }
 
 .mobile-menu-list-ul {
@@ -61,12 +61,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2.5rem;
   font-style: normal;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   color: white;
+}
+
+.MM-list {
+  gap: 60%;
+  padding-left: 40px;
 }
 
 .exit {
