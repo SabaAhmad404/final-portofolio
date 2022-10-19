@@ -69,21 +69,6 @@ body {
   color: white;
 }
 
-.mobile-menu-list {
-  position: fixed;
-  background-color: #6070ff;
-  mix-blend-mode: multiply;
-  opacity: 0.8;
-  width: 100vw;
-  height: 100vh;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1.75rem;
-  font-style: normal;
-}
-
 .exit {
   align-self: flex-end;
   width: 24px;
@@ -197,6 +182,17 @@ body {
   padding: 10px 12px;
   width: 100px;
   height: 40px;
+  animation: rotateLogo 1.5s linear;
+}
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .logo {
