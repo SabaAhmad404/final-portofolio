@@ -381,6 +381,7 @@ button {
 }
 
 .about {
+  margin-top: 150px;
   padding: 114px 24px;
   display: grid;
   grid-auto-rows: auto;
@@ -635,6 +636,112 @@ label {
   color: pink;
 }
 
+.pop-up-project{
+  position: fixed;
+  padding: 24px;
+  width: 80vw;
+  height: 80vh;
+  z-index: 999;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  top: 10%;
+  left: 10%;
+  overflow: scroll;
+ scrollbar-width: 2px;
+}
+
+.header-and-close-btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-head{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172B4D;
+  margin-bottom: 15px;
+}
+
+.dark-close-btn{
+  width: 12px;
+  height: 12px;
+}
+
+.head-info{
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  max-width: 278px;
+  margin-bottom: 8px;
+  margin-left: 3px;
+}
+
+.head-info-text{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #344563;
+
+}
+
+.middle-dot{
+  width: 6px;
+  height: 6px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.project-text-summry{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;;
+  color: #344563;
+}
+
+.appear{
+  display: flex;
+  color: #f32501;
+  font-size: 25px;
+align-items: flex;
+}
+
+
+.tools{
+  display: flex;
+}
+
+.tool-text{
+  margin-right: 8px;
+  margin-top: 12px;
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #172dfa;
+}
+
+.project-see-btns{
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px auto 12px 0;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  display: flex;
+  width: 295px;
+  height: 113px;
+}
+
 .disappear {
   display: none;
 }
@@ -778,7 +885,7 @@ label {
     margin-bottom: 142px;
   }
 
-  .works-section img {
+ .project-card-image{
     width: 49%;
   }
 
@@ -942,4 +1049,22 @@ label {
     font-size: 1.2rem;
     font-weight: 600;
   }
+
+  .project-text-summry{
+    width: 60%;
+  }
+
+  .txt-tools-container{
+    display: flex;
+    gap: 24px;
+  }
+
+  .appear{
+    display: flex;
+    color: #f32501;
+    font-size: 25px;
+    font-weight: 600;
+  align-items: flex;
+  }
+  
 }
