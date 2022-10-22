@@ -685,7 +685,6 @@ label {
   font-weight: 600;
   font-size: 0.8rem;
   color: #344563;
-
 }
 
 .middle-dot {
@@ -706,9 +705,8 @@ label {
   display: flex;
   color: #f32501;
   font-size: 25px;
-align-items: flex;
+  align-items: flex;
 }
-
 
 .tools {
   display: flex;
@@ -886,7 +884,7 @@ align-items: flex;
   }
 
  .project-card-image {
-    width: 49%;
+   width: 49%;
   }
 
   .work-area {
@@ -1066,5 +1064,4 @@ align-items: flex;
     font-weight: 600;
     align-items: flex;
   }
-  
 }
