@@ -636,7 +636,7 @@ label {
   color: pink;
 }
 
-.pop-up-project{
+.pop-up-project {
   position: fixed;
   padding: 24px;
   width: 80vw;
@@ -650,28 +650,28 @@ label {
   top: 10%;
   left: 10%;
   overflow: scroll;
- scrollbar-width: 2px;
+  scrollbar-width: 2px;
 }
 
-.header-and-close-btn{
+.header-and-close-btn {
   display: flex;
   justify-content: space-between;
 }
 
-.project-head{
+.project-head {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: 15px;
 }
 
-.dark-close-btn{
+.dark-close-btn {
   width: 12px;
   height: 12px;
 }
 
-.head-info{
+.head-info {
   display: flex;
   justify-content: space-around;
   width: 85%;
@@ -680,7 +680,7 @@ label {
   margin-left: 3px;
 }
 
-.head-info-text{
+.head-info-text {
   font-style: normal;
   font-weight: 600;
   font-size: 0.8rem;
@@ -688,21 +688,21 @@ label {
 
 }
 
-.middle-dot{
+.middle-dot {
   width: 6px;
   height: 6px;
   margin-top: 5px;
   margin-right: 5px;
 }
 
-.project-text-summry{
+.project-text-summry {
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;;
+  font-size: 15px;
   color: #344563;
 }
 
-.appear{
+.appear {
   display: flex;
   color: #f32501;
   font-size: 25px;
@@ -710,11 +710,11 @@ align-items: flex;
 }
 
 
-.tools{
+.tools {
   display: flex;
 }
 
-.tool-text{
+.tool-text {
   margin-right: 8px;
   margin-top: 12px;
   padding: 4px 12px;
@@ -727,7 +727,7 @@ align-items: flex;
   color: #172dfa;
 }
 
-.project-see-btns{
+.project-see-btns {
   border-radius: 8px;
   padding: 12px;
   margin: 12px auto 12px 0;
@@ -885,7 +885,7 @@ align-items: flex;
     margin-bottom: 142px;
   }
 
- .project-card-image{
+ .project-card-image {
     width: 49%;
   }
 
@@ -1050,21 +1050,21 @@ align-items: flex;
     font-weight: 600;
   }
 
-  .project-text-summry{
+  .project-text-summry {
     width: 60%;
   }
 
-  .txt-tools-container{
+  .txt-tools-container {
     display: flex;
     gap: 24px;
   }
 
-  .appear{
+  .appear {
     display: flex;
     color: #f32501;
     font-size: 25px;
     font-weight: 600;
-  align-items: flex;
+    align-items: flex;
   }
   
 }
