@@ -45,7 +45,7 @@ const description = [
   {
     id: 2,
     title: "Tonic",
-    list: ["CANOPY", "Back End Dev", "2015"],
+    list: ["CANOPY", "Back End Dev", "2022"],
     image: "./images/works-section-images/Snapshoot-Portfolio-(1).svg",
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     lang: ["Html", "Ruby", "Css", "Javascript"],
@@ -54,7 +54,7 @@ const description = [
   {
     id: 3,
     title: "Tonic",
-    list: ["CANOPY", "Back End Dev", "2015"],
+    list: ["CANOPY", "Back End Dev", "2022"],
     image: "/images/works-section-images/Snapshoot-Portfolio-(2).svg",
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     lang: ["Html", "Ruby", "Css", "Javascript"],
