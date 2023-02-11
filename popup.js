@@ -35,39 +35,69 @@ mobileMenuList3.addEventListener("click", closeMenu);
 const description = [
   {
     id: 1,
-    title: "Tonic",
-    list: ["CANOPY", "Back End Dev", "2022"],
-    image: "images/works-section-images/Snapshoot-Portfolio.svg",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    lang: ["Html", "Ruby", "Css", "Javascript"],
+    title: "Todo-List",
+    list: ["local-Storage", "Front End Dev", "2022"],
+    image: "images/todo.PNG",
+    desc: "Minimalist To Do List Project is a website that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It is inspired by the minimalist website.",
+    lang: ["Html", "Css", "Javascript"],
+    livelink: "https://sabaahmad404.github.io/Todo-list/dist/",
+    sourceLink: "https://github.com/SabaAhmad404/Todo-list",
     category: "card1 works",
   },
   {
     id: 2,
-    title: "Tonic",
-    list: ["CANOPY", "Back End Dev", "2015"],
-    image: "./images/works-section-images/Snapshoot-Portfolio-(1).svg",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    lang: ["Html", "Ruby", "Css", "Javascript"],
-    category: "card1 works",
+    title: "JavScript Leader-Board",
+    list: ["API", "Front End Dev", "2022"],
+    image: "./images/leaderboard.PNG",
+    desc: " The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved to the external leaderboard-apis.",
+    lang: ["Html", "Css", "Javascript"],
+    livelink: "https://sabaahmad404.github.io/Leaderboard-Apis/dist",
+    sourceLink: "https://github.com/SabaAhmad404/Leaderboard-Apis",
+    category: "card2 works",
   },
   {
     id: 3,
-    title: "Tonic",
-    list: ["CANOPY", "Back End Dev", "2022"],
-    image: "/images/works-section-images/Snapshoot-Portfolio-(2).svg",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    lang: ["Html", "Ruby", "Css", "Javascript"],
-    category: "card1 works",
+    title: "Math Magicians",
+    list: ["SPA", "Front End Dev", "2023"],
+    image: "/images/calculator.PNG",
+    desc: "Math-magician-React Project Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations and Read a random math-related quote.",
+    lang: ["Html", "React", "Css", "Javascript"],
+    livelink: "https://math-magician-c918.onrender.com",
+    sourceLink: "https://github.com/SabaAhmad404/Math-magician-React",
+    category: "card3 works",
   },
   {
     id: 4,
-    title: "Tonic",
-    list: ["CANOPY", "Back End Dev", "2022"],
-    image: "/images/works-section-images/Snapshoot-Portfolio-(1).svg",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    lang: ["Html", "Ruby", "Css", "Javascript"],
-    category: "card1 works",
+    title: "Global-Sumit",
+    list: ["Responsiveness", "Front End Dev", "2022"],
+    image: "/images/CapSTONE1.PNG",
+    desc: "My Capstone project have both Mobile and Desktop versions .I use the HTml and CSS to make the pages responsive and javascript to make the button functionable.",
+    lang: ["Html", "Css", "Javascript"],
+    livelink: "https://sabaahmad404.github.io/Capstone-1/",
+    sourceLink: "https://github.com/SabaAhmad404/Capstone-1",
+    category: "card4 works",
+  },
+  {
+    id: 5,
+    title: "JavaScript Pokemon-Api",
+    list: ["API", "Front End Dev", "2023"],
+    image: "/images/javascript-capt.PNG",
+    desc: "The pokemon api provides data about mY selected api and I build the webapp around it. The webapp have 3 user interfaces.",
+    lang: ["Html", "Css", "Javascript"],
+    livelink: "https://sabaahmad404.github.io/javascript-capstone/dist/",
+    sourceLink: "https://github.com/SabaAhmad404/javascript-capstone",
+    category: "card5 works",
+  },
+  {
+    id: 6,
+    title: "Space Travel Hub",
+    list: ["API", "Front End Dev", "2023"],
+    image: "/images/spaceship.PNG",
+    desc: "Space Travelers' Hub Space Travelers' Hub is a website that allows the user to take a fictional tour across the space.",
+    lang: ["jsx", "React", "Redux", "Css", "Javascript"],
+    livelink: "https://space-travelers-hub-z8qg.onrender.com",
+    sourceLink: "https://github.com/Abe1able/Space-Travelers-Hub",
+    category: "card6 works",
   },
 ];
 const workSection = document.querySelector(".works-section");
@@ -128,19 +158,23 @@ const popUpCard = (m) => {
   const projectSeeBtns = document.createElement("div");
   projectSeeBtns.classList.add("project-see-btns");
   toolsAndBtn.append(projectSeeBtns);
-  const seeLive = document.createElement("button");
+  const seeLive = document.createElement("a");
   seeLive.classList.add("see-live");
   seeLive.classList.add("see-project-btn");
   seeLive.innerText = "See live";
+  seeLive.href = description[m].livelink;
+  seeLive.target = "_blank";
   const seeLiveImg = document.createElement("img");
   seeLiveImg.classList.add("see-live-image");
   seeLiveImg.src = "/images/btn-1-png.png";
   seeLive.append(seeLiveImg);
   projectSeeBtns.append(seeLive);
-  const seeSource = document.createElement("button");
+  const seeSource = document.createElement("a");
   seeSource.classList.add("see-source");
   seeSource.classList.add("see-project-btn");
   seeSource.innerText = "See source";
+  seeSource.href = description[m].sourceLink;
+  seeSource.target = "_blank";
   const seeSourceImg = document.createElement("img");
   seeSourceImg.classList.add("see-source-image");
   seeSourceImg.src = "/images/btn-2-png.png";
