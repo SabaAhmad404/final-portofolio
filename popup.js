@@ -88,6 +88,17 @@ const description = [
     sourceLink: "https://github.com/SabaAhmad404/javascript-capstone",
     category: "card5 works",
   },
+  {
+    id: 6,
+    title: "Space Travel Hub",
+    list: ["API", "Front End Dev", "2023"],
+    image: "/images/spaceship.PNG",
+    desc: "Space Travelers' Hub Space Travelers' Hub is a website that allows the user to take a fictional tour across the space.",
+    lang: ["jsx", "React", "Redux", "Css", "Javascript"],
+    livelink: "https://space-travelers-hub-z8qg.onrender.com",
+    sourceLink: "https://github.com/Abe1able/Space-Travelers-Hub",
+    category: "card6 works",
+  },
 ];
 const workSection = document.querySelector(".works-section");
 let m = 0;
